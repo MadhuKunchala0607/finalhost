@@ -86,7 +86,7 @@ app.post('/submit-form', (req, res) => {
 });
 
 
-const PORT = process.env.PORT || 8080; // Use PORT from environment variable, fallback to 8080 if not set
+const PORT = process.env.PORT || 3000; // Use PORT from environment variable, fallback to 8080 if not set
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
